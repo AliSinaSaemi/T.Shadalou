@@ -1,0 +1,665 @@
+/*=====================================
+    Owner = Tayebeh Shadaloo 
+    Author = -=Blue Dova=-(Alisina Saemi)
+    Iran , Tehran
+    1395 - 2016
+=======================================*/
+/*===========================================================================================================
+                              Main Page (index.html) i mean Main Settings
+===========================================================================================================*/
+/* Global Settings
+===================================================*/
+@charset:utf-8;
+
+body::-webkit-scrollbar,
+.modal::-webkit-scrollbar { width: .5em; }
+.sidenav::-webkit-scrollbar { width: 1.2em; }
+body::-webkit-scrollbar-track,
+.sidenav::-webkit-scrollbar-track,
+.modal::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+body::-webkit-scrollbar-track-piece,
+.sidenav::-webkit-scrollbar-track-piece,
+.modal::-webkit-scrollbar-track-piece { background-color: #090b11; }
+body::-webkit-scrollbar-thumb,
+.sidenav::-webkit-scrollbar-thumb,
+.modal::-webkit-scrollbar-thumb {
+  background-color: #fa3447;
+  outline: 1px solid #a7ace1;
+}
+/* Main Options
+===================================================*/
+/* Back to top button
+-------------------------*/
+.back-to-top {
+  padding: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  border-radius: 0;
+  bottom: 0;
+  right: 0;
+  display:none;
+  border: none;
+}
+/* Font
+-------------------------*/
+.gandom { font-family: 'gandom' ; }
+.yekan     { font-family: 'yekan' , sans-serif , serif; }
+.btitrbold { font-family: 'btitrbold' , sans-serif , serif; }
+/* Navigation
+-------------------------*/
+.navbar-inverse { 
+  border: none; 
+  box-shadow: 0 0 10px #000;
+}
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;  
+}
+.navbar-header .navbar-toggle p { margin: 0; }
+.navbar-inverse .navbar-brand   { 
+  font-size: 25px; 
+  transition-duration: .3s;
+}
+form.navbar-form button p {
+  bottom: 3px;
+  font-weight: bold;
+  margin: 0;
+  position: relative;
+}
+.form-control,
+form.navbar-form button.btn { border-radius: 0; }
+.add-on .input-group-btn > .btn {
+  border-left-width:0;left:-2px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+/* stop the glowing blue shadow */
+.add-on .form-control:focus {
+ box-shadow:none;
+ -webkit-box-shadow:none; 
+ border-color:#cccccc; 
+}
+/* Banner image and text
+-------------------------*/
+.banner-image { 
+  background-attachment:fixed;
+  background-image:  url("../img/banners/Banner-Shadaloo_web_02.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  padding: 180px 0 120px;
+  width: 100%;
+  height: 250px;
+}
+h1 small {
+  font-size: 38px;
+  font-family: 'btitrbold' ,sans-serif;
+}
+/* Gallary Motion
+-------------------------*/
+.carousel-control { transition-duration: .2s; }
+/* Bio Part
+-------------------------*/
+div.first-text,
+div.second-text { transition-duration: .3s; }
+.bg-img-gallary {
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../img/background-images/Floor_3d_view_minimalistic_wall_room_patterns_wood_floor_1920x1200.jpg');
+}
+.title {
+  font-family: 'btitrbold';
+  font-size: 30px;
+}
+.title-text {
+  font-family: 'yekan';
+  font-size: 20px;
+  padding-top: 15px;
+}
+/* My own Button */
+#button-continue {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  border: 1.5px solid white;
+  padding: 10px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: 'yekan';
+  margin: 20px 0 40px 0;
+  transition-duration: .3s;
+}
+#button-continue:hover { border-radius: 0; }
+div h3.title { margin-bottom: 0; }
+div p.title-text { line-height: 35px; }
+/* Gallary Part
+------------------------*/
+.title_2 { text-shadow: 0 0 10px black; }
+hr.hr-gallary {
+  border: 3px solid white;
+  box-shadow: 0 0 20px black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #fff;
+  width: 35%;
+  border-radius: 5px;
+}
+div.Preview div.thumbnail {
+  padding: 0;
+  border: none;
+}
+.gallary-item-shadow { box-shadow: 0 0 15px #000; }
+div.thumbnail a img.img-responsive:hover { opacity: .5; }
+.media-heading {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+div.caption p.yekan { text-align: center; }
+.Preview { padding-top: 15px; }
+div.more div.more-option button a { text-decoration: none; }
+div.more button.more-option {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  border: none;
+  padding: 115px 130px;
+  transition-duration: .3s;
+}
+div.more button.more-option:hover { border-radius: 50%; }
+div.low-size-more-button button.little-more-option {
+  font-size: 40px;
+  padding: 40px;
+  margin: 20px;
+  text-align: center;
+  border: none;
+  font-family: 'gandom';
+  border-radius: 10px;
+}
+div.low-size-more-button button.little-more-option p span {
+  position: relative;
+  top: 15px;
+  right: 5px;
+}
+/* About US
+-------------------------*/
+div.second-text h4.btitrbold {
+  font-size: 22.5px;
+  margin-bottom: 5px;
+}
+hr.hr-aboutUs {
+  border: 2.5px solid #fff;
+  width: 100%;
+}
+div.second-text button a,
+div.first-text button a { text-decoration: none; }
+/* Footer Settins
+-------------------------*/
+footer.footerPadding { padding: 50px; }
+footer h6 { font-size: 20px; }
+footer a:hover { text-decoration: none; }
+footer a { transition-duration: .3s; }
+.copyRight,
+.socialIcons { margin-top: 40px; }
+div.copyRight p.yekan:first-child {  margin-bottom: 0; }
+div.socialIcons p.yekan {
+  font-size: 15px;
+  margin-bottom: 0;
+  position: relative;
+  right: 26%;
+  bottom: 15px;
+}
+footer.navbar-default { box-shadow: 0 1px 12px #000; }
+/* Color & Bg-color
+===================================================*/
+/* Navigation
+-------------------------*/
+.back-to-top {
+  background-color: #090b11;
+  color: #fa3447;
+}
+.active-navigation { background-color: white; }
+ul.navbar-left li.active-navigation a,
+ul.navbar-left li.active-navigation a:hover { color: black; }
+.navbar-header .navbar-toggle   { border-color: white; }
+.navbar-header .navbar-toggle p { color: white; }
+.navbar-inverse                 { background-color: #212A3F; }
+.navbar-inverse .navbar-brand   { color: #fa3447; }
+/* Carousel-images
+-------------------------*/
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before { color: #002d96; }
+.carousel-indicators .active    { background-color: #002d96; }
+.carousel-indicators li         { border: 2px solid #002d96; }
+/* Banner-image
+-------------------------*/
+h1 small { color: brown; }
+.banner-image {   
+  background-color: #645862;
+  color: #2e3138;
+}
+/* Texts and Titles
+-------------------------*/
+.btn-info { border-color: black; }
+.btn-info:hover { border-color: #331818; }
+div.caption button {
+  background-color: #000;
+  color: #fff;
+}
+div.caption button:hover { background-color: #802222; }
+div.caption,
+div.first-text:hover,
+div.second-text:hover { background-color: #2c3f58; }
+.bg-img-bio     { background-color: #a0f994; }
+.bg-img-gallary { background-color: #ffb8b8; }
+.bg-img-info    { background-color: #6f7ff6;}
+#button-continue       { background-color: #a54a4a; }
+#button-continue:hover { background-color: #921212; }
+.first-text,
+.second-text    { background-color: #476183; }
+.third-text     { background-color: #3CB661; }
+.first-text,
+.second-text,
+.third-text,
+div.second-text button a,
+div.first-text button a,
+div.caption button a,
+.title_2 { color: white; }
+div.low-size-more-button button.little-more-option {
+  background-color: #223146;
+  color: white;
+}
+div.more button.more-option {
+  background-color: #171616;
+  color: #dadada;
+}
+div.more button.more-option:hover {
+  background-color: #f2f2f2;
+  color: #000;
+}
+/* Footer
+-------------------------*/
+footer.navbar-default {
+  background-color: #212A3F;
+  color: #cdd6ec;
+}
+footer a:hover { color: white; }
+footer a       { color: #5c616b; }
+/* Media Queries For fixing Bugs
+===================================================*/
+@media (min-width: 768px) {
+  /* Navigation
+  -------------------------*/
+  .navbar-brand {
+    bottom: 2.5px;
+    position: relative;
+  }
+  /* Banner Images
+  -------------------------*/
+  .banner-image { background-position: center -250px;}
+  /* Titles and Texts
+  -------------------------*/
+  div.third-text div.col-sm-6:first-of-type { border-left: 2px solid white; }
+}
+@media (max-width: 768px) {
+  /* Global
+  -------------------------*/
+  body::-webkit-scrollbar { width: 1em; }
+  .back-to-top {
+    padding: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    position: fixed;
+    border-radius: 0;
+    bottom: 0;
+    right: 0;
+    display:none;
+  }
+  /* Navigation
+  -------------------------*/
+  .navbar-nav>li>a {
+    text-align: center;
+    font-size: 18px;
+  }
+  button.navbar-toggle p,
+  .navbar-inverse .navbar-brand,
+  button.navbar-toggle { position: relative; }
+  .banner-xs-margin { margin-top: 50px; }
+  .navbar-inverse .navbar-form { border: none; }
+  .navbar-inverse .navbar-brand { top: 4px; }
+  form.navbar-form button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .form-control,
+  form.navbar-form button.btn { border-radius: 5px; }
+  form.navbar-form button.btn { padding: 6px 20px; }
+  button.navbar-toggle        { top: 1px; }
+  button.navbar-toggle p      { bottom: 2.5px; }
+  /* Banner Images
+  -------------------------*/
+  .banner-image {
+    background-attachment: inherit;
+    background-position: center center;
+  }
+  h1.banner-text,
+  h1.banner-text small { font-size: 20px; }
+  h1.banner-text small.title-xs { font-size: 30px; }
+  /* Titles and Texts
+  -------------------------*/
+  .title-text { font-size: 15px; }
+  .title { 
+    font-size: 25px; 
+    text-align: center; 
+  }
+  .title_2 { font-size: 25px; }
+  div.more button.more-option {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  div.low-size-more-button button.little-more-option {
+    font-size: 20px;
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+    font-family: 'gandom';
+    border-radius: 0;
+  }
+  div.low-size-more-button button.little-more-option p span {
+    position: relative;
+    top: 8px;
+    right: 5px;
+  }
+  /* Footers
+  -------------------------*/
+  .copyRight-line-height {
+    line-height: 25px;
+  }
+  div.caption p.copyRight-line-height {
+    line-height: 30px;
+  }
+}
+/*===========================================================================================================
+                                            Pages of Gallaries
+============================================================================================================*/
+/* Global Settings
+======================================*/
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+/* Navigation Settings
+======================================*/
+
+/* Images of Gallaries Settings
+======================================*/
+.modalPadding { padding: 15px; }
+.modal-header { border-bottom: none; }
+button.close span { 
+  font-size: 50px; 
+  position: relative;
+  bottom: 8px;
+  text-align: right;
+}
+.gallary-imgs {
+  width: 100%;
+  height: 100%;
+}
+.modal-content {
+  border: none;
+  border-radius: 0;
+}
+.unthumbnailing {
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+/* Page manager (Breadcrumbs) Settings
+==========================*/
+div.page-manager p.distance,
+div.page-manager p a {
+  font-weight: bold;
+  font-size: 20px;
+}
+div.page-manager p.distance { padding: 0 10px; }
+div.page-manager p,
+div.page-manager   { margin: 0; }
+div.page-manager { padding: 15px; }
+div.page-manager, 
+div.page-manager p { display: inline-block; }
+div.page-manager a { transition-duration: .3s; }
+div.page-manager a:hover { text-decoration: none; }
+/* Panigation Settings
+==========================*/
+hr.active_panigation {
+  border-radius: 0;
+  margin: 0;
+}
+ul.panigation { 
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-right: 0;
+}
+ul.panigation,
+ul.panigation li { display: inline-block; }
+ul.panigation li { 
+  padding: 0; 
+  margin: 0;
+}
+ul.panigation li a { 
+  padding: 10px; 
+  vertical-align: middle;
+}
+ul.panigation li a { transition-duration: .3s; }
+ul.panigation li a:hover { text-decoration: none; }
+ul.panigationTop {
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+ul.panigationBottom {
+  margin-top: 15px;
+  margin-bottom: 9px;
+}
+/* Colors Settings
+======================================*/
+.gallaries-title { color: #151d2f; }
+.modal-content { background-color: #162035; }
+/* Gallary
+-----------------*/
+.all-bg-gallaries { background-color: dodgerblue; }
+button.close span { color: white; }
+/* Breadcrumbs
+-----------------*/
+.bg-page-manager { background-color: #151d2f; }
+div.page-manager p.distance { color: white }
+div.page-manager a { color: #5c616d; }
+div.page-manager a:hover { color: #fff; }
+/* pagination
+-----------------*/
+hr.active_panigation { border-color: #090e19; }
+ul.panigation li a {
+  background-color: #1d3150;
+  color: white;
+}
+ul.panigation li a:hover { 
+  background-color: white;
+  color: black; 
+}
+ul.panigation li a.active {
+  color: white;
+  background-color: #090e19;
+}
+
+/* @Media Settings
+======================================*/
+@media (min-width: 768px) {
+  /* Banner Images
+  -------------------------*/
+  .banner-image-2 { background-position: center -250px;}
+  .gallaries-topBottom {
+    margin: 30px 0;
+  }
+}
+@media (max-width: 768px) {
+  /* Page manager
+  ------------------*/
+  .banner-image-2 {
+    background-attachment: inherit;
+    background-position: center center;
+  }
+  /* Page manager
+  ------------------*/
+  div.page-manager p a { font-size: 15px; }
+  /* Panigation
+  ------------------*/
+  .invisible-line { display: none; }
+  ul.panigation li { margin: 0 5px; }
+  ul.panigation li a {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  ul.panigationTop { margin-top: 8px; }
+}
+/*============================================================================================================
+                                      other Pages (gallaries,about,contact ect)
+============================================================================================================*/
+/* Global Settings
+===================================================*/
+.owl-direction-rtl {
+  direction: rtl;
+  text-align: right;
+}
+/* Main Settings
+===================================================*/
+/* Navigation
+-------------------------*/
+.list-group { margin-bottom: 20px; }
+div.gallary-sidenav a.list-group-item {
+  transition-duration: .2s;
+  font-family: 'yekan';
+  font-size: 15px;
+}
+div.gallary-sidenav a.list-group-item:hover { border-right: solid 3px #21111a; }
+.list-group-item {
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 0;
+  border: none;
+  border-right: solid 3px white;
+}
+.list-group-item:last-child { border-bottom: 0; }
+div.gallary-sidenav p.lead {
+  font-family: 'gandom';
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.list-group .list-group-item .badge {
+  background-color: #1d1d2d;
+  color: white;
+  font-family: sans-serif;
+}
+.main-gallary-banner {
+  background-image: url('../img/background-images/Download-dark-blue-wallpaper-HD.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+/* Banner image
+-------------------------*/
+.padding-fix { padding: 20px; }
+div.second-text h4.tamas {
+  font-family: 'btitrbold';
+  text-align: center;
+  position: relative;
+  top: 25px;
+  font-size: 20px;
+}
+div.second-text dl.dl-horizontal {
+  font-size: 20px;
+  padding: 20px;
+  position: relative;
+  top: 25px;
+}
+/* Texts and sections
+-------------------------*/
+div.second-text p.title-text:last-child { padding-bottom: 15px; }\
+.owl-marginTop { margin-top: 65px; }
+/* Color Settings
+===================================================*/
+/* Navigation
+-------------------------*/
+div.gallary-sidenav p.lead { color: white; }
+div.gallary-sidenav a.list-group-item {
+  background-color: transparent;
+  color: white;
+}
+div.gallary-sidenav a.list-group-item:hover {
+  background-color: white;
+  color: #21111a;
+}
+/* Banner image
+-------------------------*/
+.banner-bio {   
+  background-color: #645862;
+  color: #2e3138;
+}
+h1.banner-text-bio {
+  position: relative;
+  top: 75px;
+  font-family: 'gandom';
+  font-weight: bold;
+}
+/* @media Settings
+===================================================*/
+@media (max-width:992px) {
+  div.gallary-sidenav a.list-group-item {
+    background-color: #212b42;
+    color: white;
+  }
+  a.list-group-item {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 20px;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 5px;
+  }
+  a.list-group-item:hover {
+    border-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  /* Navigations
+  -------------------------*/
+  .owl-marginTop { margin-top: 50px; }
+  div.second-text dl.dl-horizontal {
+    font-size: 16px;
+    top: inherit;
+    text-align: center;
+  }
+  div.second-text h4.tamas {
+    top: inherit;
+    bottom: 5px;
+  }
+  /* Banner Images
+  -------------------------*/
+  .banner-bio {
+    background-attachment: inherit;
+    background-position: center center;
+  }
+  /* Texts and columns
+  -------------------------*/
+  dd { font-size: 15px; }
+}
