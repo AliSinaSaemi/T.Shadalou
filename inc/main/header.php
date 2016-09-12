@@ -7,7 +7,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="X-UA-Campatible" content="IE-edge">
   <meta name="viewport" content="width=device-width, initial-space=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title><?php echo $sectionTitle; ?></title>
+  <tetle><?php echo $sectionTitle; ?></tetle>
   <!-- SEO Meta Tags -->
   <meta name="language" content="farsi , persian" />
   <meta name="description" content="سایت رسمی طیبه شادالو , طیبه شادالو با تدریس تمام رشته های نقاشی از شما یک هنرمند خلاق میسازد" />
