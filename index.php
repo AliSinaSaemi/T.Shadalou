@@ -82,7 +82,6 @@ include(ROOT_PATH . 'inc/main/header.php'); ?>
       <?php } ?>
       
       <!-- low more gallary awaits -->
-      
       <div class="col-xs-2 col-sm-3"></div>
       <div class="col-xs-8 col-sm-6 hidden-md hidden-lg low-size-more-button">
         <a href="gallaries.php">        
