@@ -1,6 +1,6 @@
 /*=====================================
     Owner = Tayebeh Shadaloo 
-    Author = -=Blue Dova=-(Alisina Saemi)
+    Author = D_O_V_A(Alisina Saemi)
     Iran , Tehran
     1395 - 2016
 =======================================*/
@@ -26,11 +26,13 @@ body::-webkit-scrollbar-thumb,
   background-color: #fa3447;
   outline: 1px solid #a7ace1;
 }
+
 /* Main Options
 ===================================================*/
 /* Back to top button
 -------------------------*/
 .back-to-top {
+  z-index: 100;
   padding: 30px;
   font-size: 20px;
   cursor: pointer;
@@ -152,7 +154,7 @@ div.Preview div.thumbnail {
   padding: 0;
   border: none;
 }
-.gallary-item-shadow { box-shadow: 0 0 15px #000; }
+.gallary-item-shadow { box-shadow: 0 0 15px #000; } 
 div.thumbnail a img.img-responsive:hover { opacity: .5; }
 .media-heading {
   margin: 10px 0 10px 0;
@@ -162,6 +164,7 @@ div.caption p.yekan { text-align: center; }
 .Preview { padding-top: 15px; }
 div.more div.more-option button a { text-decoration: none; }
 div.more button.more-option {
+  border-radius: 5px;
   margin-top: 50px;
   text-align: center;
   font-size: 50px;
@@ -215,6 +218,12 @@ div.socialIcons p.yekan {
 footer.navbar-default { box-shadow: 0 1px 12px #000; }
 /* Color & Bg-color
 ===================================================*/
+/* Global
+-------------------------*/
+*::selection { 
+  background-color: #090b11;
+  color: white;
+}
 /* Navigation
 -------------------------*/
 .back-to-top {

@@ -4,9 +4,10 @@ $navActive = "contact";
 $bannerText = "ارتباط با ما";
 $breadCrumbsPath = "contact.php";
 require_once('inc/main/config.php');
-include(ROOT_PATH . 'inc/main/header.php'); ?>
-
-<?php include(ROOT_PATH . 'inc/partial/banner.php'); ?>
+include(ROOT_PATH . 'inc/main/header.php'); 
+include(ROOT_PATH . 'inc/partial/banner.php'); 
+include(ROOT_PATH . 'inc/partial/mainBreadCrumbs.php');
+?>
 
   <!-- // About us // -->
   <div class="container-fluid second-text">

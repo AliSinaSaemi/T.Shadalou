@@ -1,12 +1,13 @@
 <?php 
-$sectionTitle = "طیبه شادالو | گالری ها";
+$sectionTitle = " طیبه شادالو | گالری ها - مدرن";
 $navActive = "gallaries";
 $bannerText = "مدرن";
 $breadCrumbsPath = "gallary.php";
 require_once("../../inc/main/config.php");
-include(ROOT_PATH . "inc/main/header.php"); ?>
-
-  <?php include(ROOT_PATH . 'inc/partial/banner.php'); ?>
+include(ROOT_PATH . "inc/main/header.php"); 
+include(ROOT_PATH . 'inc/partial/banner.php'); 
+include(ROOT_PATH . 'inc/partial/gallariesBreadCrumbs.php');
+?>
 
     <hr class="active_panigation">
     <!-- // Images of Gallary (Tazhib) // -->
@@ -14,10 +15,9 @@ include(ROOT_PATH . "inc/main/header.php"); ?>
       <div class='row'>
         <ul class="panigation panigationTop">
           <li><a href="#">&laquo;</a></li>
-          <li><a href="#">4</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">2</a></li>
-          <li><a class="active" href="#">1</a></li>
+          <li><a class="active" href="modern_01.php">1</a></li>
           <li><a href="#">&raquo;</a></li>
         </ul>
       </div>
@@ -70,10 +70,9 @@ include(ROOT_PATH . "inc/main/header.php"); ?>
       <div class='row'>
         <ul class="panigation panigationBottom">
           <li><a href="#">&laquo;</a></li>
-          <li><a href="#">4</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">2</a></li>
-          <li><a class="active" href="#">1</a></li>
+          <li><a class="active" href="modern_01.php">1</a></li>
           <li><a href="#">&raquo;</a></li>
         </ul>
       </div>

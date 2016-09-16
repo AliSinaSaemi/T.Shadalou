@@ -3,7 +3,6 @@ $sectionTitle = "طیبه شادالو | صفحه اصلی";
 require_once('inc/main/config.php');
 include(ROOT_PATH . 'inc/main/header.php'); ?>
 
-
   <!-- // Banner // -->
   <div class="container-fluid banner-xs-margin" id="page-top">
     <div class="row">
@@ -83,13 +82,16 @@ include(ROOT_PATH . 'inc/main/header.php'); ?>
       <?php } ?>
       
       <!-- low more gallary awaits -->
-      <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3 hidden-md hidden-lg low-size-more-button">
+      
+      <div class="col-xs-2 col-sm-3"></div>
+      <div class="col-xs-8 col-sm-6 hidden-md hidden-lg low-size-more-button">
         <a href="gallaries.php">        
-          <button type="button" class="little-more-option">
+          <button type="button" class="little-more-option text-center">
             <p class="text-center">در گالری ها بیشتر ببینید. <span class="glyphicon glyphicon-arrow-left animated infinite shake"></span></p>
           </button>
         </a>
       </div>
+      <div class="col-xs-2 col-sm-3"></div>
       <!-- /.low-more -->
       
       <!-- more gallary awaits -->

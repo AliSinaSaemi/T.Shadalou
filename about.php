@@ -4,11 +4,11 @@ $navActive = "about";
 $bannerText = "درباره ما";
 $breadCrumbsPath = "about.php";
 require_once('inc/main/config.php');
-include(ROOT_PATH . 'inc/main/header.php'); ?>
+include(ROOT_PATH . 'inc/main/header.php'); 
+include(ROOT_PATH . 'inc/partial/banner.php'); 
+include(ROOT_PATH . 'inc/partial/mainBreadCrumbs.php');
+?>
 
-  
-<?php include(ROOT_PATH . 'inc/partial/banner.php'); ?>
-   
   <!-- // About us // -->
   <div class="container-fluid second-text">
     <div class="container">
